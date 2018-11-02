@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titolUsuariNou"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Usuari nou"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/inputNom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nom:"/>
+
+    <EditText
+        android:id="@+id/inputNomUsuari"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Nom usuari:" />
+
+
+    <EditText
+        android:id="@+id/inputData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Data naixement: "/>
+
+    <TextView
+        android:id="@+id/inputSexe"
+        android:layout_width="match_parent"
+        android:text="Sexe:"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/input_Mascle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mascle"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/input_Femella"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Femella"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_Recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_insertarEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSERTAR ESTUDIANTE"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_insertarProfesor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSERTAR PROFESOR"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

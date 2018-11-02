@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/input_Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"/>
+
+    <TextView
+        android:id="@+id/input_NomUsuari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom usuari"/>
+
+    <TextView
+        android:id="@+id/input_Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data naixement"/>
+
+    <TextView
+        android:id="@+id/input_Sexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ok"
+        android:text="OK"/>
+
+</LinearLayout>
