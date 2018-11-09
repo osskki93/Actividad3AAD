@@ -48,45 +48,54 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_weight="1">
 
         <RadioButton
             android:id="@+id/input_Mascle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Mascle"
             android:layout_weight="1"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="Mascle" />
 
         <RadioButton
             android:id="@+id/input_Femella"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Femella"
             android:layout_weight="1"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="Femella" />
 
     </RadioGroup>
-
-    <Button
-        android:id="@+id/btn_Guardar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Guardar"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btn_Recuperar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recuperar"
-        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btn_Recuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recuperar"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_gravity="center">
 
         <Button
@@ -102,6 +111,47 @@
             android:layout_height="wrap_content"
             android:text="INSERTAR PROFESOR"
             android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_insertarAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSERTAR ASIGNATURA"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_Consultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAS"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR DATOS"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BORRAR DATOS"
+            android:layout_gravity="center"/>
+
+
+
+
     </LinearLayout>
 
 

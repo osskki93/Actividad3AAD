@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/vacio"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BÚSQUEDA"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_listarEstudiantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR ESTUDIANTES"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_listarProfesores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR PROFESORES"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_listarAsignaturasPorEstudiantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR ASIGNATURAS POR NOMBRE"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_listarPorCiclo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR POR CICLO"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_listarPorCurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR POR CURSO"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_listarAsignaturas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTAR ASIGNATURAS"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

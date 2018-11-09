@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarDatos">
+
+
+    <TextView
+        android:id="@+id/nombreViejo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="49dp"
+        android:text="Nombre viejo: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/nombreViejoET"
+        app:layout_constraintEnd_toStartOf="@+id/nombreViejoET"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/nombreViejoET"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nombreViejo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/nombreNuevoET"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nombreNuevo"
+        app:layout_constraintTop_toBottomOf="@+id/nombreViejoET"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/nombreNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="49dp"
+        android:text="Nombre nuevo: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/nombreNuevoET"
+        app:layout_constraintEnd_toStartOf="@+id/nombreNuevoET"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

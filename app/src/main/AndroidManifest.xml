@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".Preferencias_Activity" />
         <activity android:name=".insertarEstudiantes" />
-        <activity android:name=".insertProfesores"></activity>
+        <activity android:name=".insertProfesores" />
+        <activity android:name=".Consultas" />
+        <activity android:name=".ActualizarDatos" />
+        <activity android:name=".BorrarDatos" />
+        <activity android:name=".InsertarAsignatura"></activity>
     </application>
 
 </manifest>

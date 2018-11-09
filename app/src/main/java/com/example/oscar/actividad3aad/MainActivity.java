@@ -71,6 +71,42 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(i, 2);
             }
         });
+
+        final Button btn_insertarAsignatura = (Button) findViewById(R.id.btn_insertarAsignatura);
+        btn_insertarAsignatura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), InsertarAsignatura.class);
+                startActivityForResult(i, 4);
+            }
+        });
+
+        final Button btn_Consultas = (Button) findViewById(R.id.btn_Consultas);
+        btn_Consultas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), Consultas.class);
+                startActivityForResult(i, 3);
+            }
+        });
+
+        final Button btn_actualizar = (Button) findViewById(R.id.btn_actualizar);
+        btn_actualizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(),ActualizarDatos.class);
+                startActivity(i);
+            }
+        });
+
+        Button btn_borrar = (Button)findViewById(R.id.btn_borrar);
+        btn_borrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(),BorrarDatos.class);
+                startActivity(i);
+            }
+        });
     }
 
     private boolean comprobarCampos(){
